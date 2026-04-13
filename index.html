@@ -355,10 +355,10 @@ function norm(s){
 const levels = [
   {
     type:"ENIGMA",
-    question:"Quanto mais eu falo,\nmenos eu existo.\n\nO que sou?",
-    hint:"Pense no que se desfaz no momento em que você o pronuncia...",
-    answers:["silencio","o silencio"],
-    flavor:"O silêncio foi rompido."
+    question:"Fui construída para durar apenas 20 anos.\ne hoje sou o monumento mais visitado do mundo.\n\nO que sou?",
+    hint:"Meu criador se chamava Gustave.",
+    answers:["torre eiffel","a torre eiffel","eiffel"],
+    flavor:"A Torre Eiffel — erguida em 1889, ainda desafia os seus críticos."
   },
   {
     type:"MATEMÁTICA",
@@ -375,32 +375,32 @@ const levels = [
     flavor:"Fibonacci — a sequência da natureza."
   },
   {
-    type:"LÓGICA",
-    question:"Um avião cai exatamente na fronteira\nentre o Brasil e a Argentina.\n\nEm qual país os sobreviventes\nsão enterrados?",
-    hint:"Leia com atenção. Uma palavra muda tudo.",
-    answers:["nenhum","nenhum lugar","em nenhum","sobreviventes nao sao enterrados","nao sao enterrados","nenhum dos dois"],
-    flavor:"Sobreviventes não precisam de túmulos."
+    type:"CULTURA",
+    question:"Qual museu \né considerado o mais visitado\ndo mundo e abriga a Vitória de Samotrácia \nde Rodes?",
+    hint:"Fica num antigo palácio real, às margens do Rio Sena.",
+    answers:["louvre","museu do louvre","o louvre"],
+    flavor:"Le Louvre — mais de 35 000 obras e 9 milhões de visitantes por ano."
   },
   {
-    type:"LÓGICA",
-    question:"Um homem olha para uma fotografia\ne diz:\n\n  'Não tenho irmãos nem irmãs.\n   Mas o pai desta pessoa\n   é o filho do meu pai.'\n\nDe quem é a fotografia?",
-    hint:"Se ele não tem irmãos, quem é o único filho do pai dele?",
-    answers:["filho","seu filho","do seu filho","do filho dele","Eu", "Minha"],
-    flavor:"O pai da foto é ele mesmo. A foto é do seu filho."
+    type:"GASTRONOMIA",
+    question:"Este pão francês é longo,\ncrocante por fora e macio por dentro.\nConsome-se cerca de 30 milhões\nde unidades por dia na França.\n\nFoi reconhecido como Patrimônio\nCultural pela UNESCO em 2022.\n\nComo se chama?",
+    hint:"Em francês, a palavra significa 'varinha' ou 'bastão'.",
+    answers:["baguete","baguette"],
+    flavor:"La baguette — símbolo da França e herança da humanidade."
   },
   {
-    type:"CIÊNCIA",
-    question:"Na Tabela Periódica dos Elementos,\nqual elemento possui o símbolo:\n\n  Au",
-    hint:"Do latim Aurum. Muito valioso.",
-    answers:["ouro","gold"],
-    flavor:"Aurum — o metal dos deuses."
+    type:"GEOGRAFIA",
+    question:"Qual rio corta Paris ao meio,\npassando por Notre-Dame\ne sob pontes históricas\ncomo a Pont Neuf?",
+    hint:"Nasce na Borgonha e deságua no Canal da Mancha.",
+    answers:["sena","rio sena","seine"],
+    flavor:"La Seine — 775 km de história e romance."
   },
   {
-    type:"LÓGICA",
-    question:"Você está em um quarto\ncompletamente escuro.\nVocê tem apenas um fósforo.\nNo quarto há uma vela,\numa lareira e uma lamparina a óleo.\n\nO que você acende primeiro?",
-    hint:"Sem isso, você não pode acender mais nada.",
-    answers:["fosforo","o fosforo","palito","palito de fosforo","o palito","o palito de fosforo"],
-    flavor:"Primeiro a ferramenta, depois a obra."
+    type:"ARTE",
+    question:"Em qual famoso bairro de Paris\nviveram artistas como Picasso,\nDalí e Modigliani?\n\nSeu nome significa\n'montanha dos mártires'.",
+    hint:"No topo fica a imponente Basílica do Sacré-Cœur.",
+    answers:["montmartre","mont martre","mont-martre"],
+    flavor:"Montmartre — o coração boêmio que moldou a arte moderna."
   },
   {
     type:"SEQUÊNCIA",
@@ -411,10 +411,10 @@ const levels = [
   },
   {
     type:"ENIGMA",
-    question:"Tenho dentes,\nmas nunca mordo.\n\nO que sou?",
-    hint:"Uso meus dentes para organizar cabelos.",
-    answers:["pente","um pente"],
-    flavor:"Os dentes que nunca ferem."
+    question:"Separo dois países por água,\nmas um túnel subterrâneo\nos uniu por baixo de mim.\nSou o braço de mar que divide\na França da Grã-Bretanha.\n\nQual é meu nome em português?",
+    hint:"Em inglês me chamam de 'English Channel'.",
+    answers:["canal da mancha","a mancha","mancha"],
+    flavor:"O Canal da Mancha — cruzado a nado, a navio e agora pelo Eurostar."
   },
   {
     type:"SEQUÊNCIA",
@@ -431,11 +431,11 @@ const levels = [
     flavor:"x + 3 = 2(x − 3)  →  x = 9"
   },
   {
-    type:"ENIGMA",
-    question:"Tenho pescoço,\nmas não tenho cabeça.\n\nO que sou?",
-    hint:"Guardo líquidos dentro de mim.",
-    answers:["garrafa","uma garrafa"],
-    flavor:"O pescoço sem cabeça."
+    type:"HISTÓRIA",
+    question:"Qual foi o apelido dado\nao rei Luís XIV da França,\nrefletindo seu poder absoluto\ne sua corte deslumbrante\nem Versalhes?",
+    hint:"Relaciona-se ao astro que ilumina o nosso sistema solar.",
+    answers:["rei sol","o rei sol","sun king"],
+    flavor:"Luís XIV — 'L'État, c'est moi.' Reinou por 72 anos."
   },
   {
     type:"CIFRA",
@@ -447,7 +447,7 @@ const levels = [
   {
     type:"SEQUÊNCIA",
     question:"Qual é a próxima letra?\n\n  O, T, T, F, F, S, S, E, N, ___",
-    hint:"Pense nos números em inglês: One, Two, Three...",
+    hint:"Pense nos números em inglês: un, due, trois...",
     answers:["t"],
     flavor:"One·Two·Three·...·Ten."
   },
@@ -459,11 +459,11 @@ const levels = [
     flavor:"3 meias garantem ao menos 2 da mesma cor. Princípio da casa dos pombos."
   },
   {
-    type:"ENIGMA",
-    question:"Estou sempre à sua frente,\nmas nunca posso ser visto.\n\nO que sou?",
-    hint:"Você nunca pode me alcançar, mas eu sempre chego.",
-    answers:["futuro","o futuro"],
-    flavor:"O futuro estava sempre na sua frente."
+    type:"LÓGICA",
+    question:"Um turista em Paris\nrecebe a seguinte instrução:\n\n  'Tournez à gauche.'\n\nPara qual direção\nele deve virar?\n(responda em uma palavra)",
+    hint:"Em francês, 'droite' é o oposto de 'gauche'.",
+    answers:["esquerda","a esquerda"],
+    flavor:"Gauche = esquerda. Droite = direita. Bienvenue à Paris!"
   },
   {
     type:"PARADOXO",
@@ -473,11 +473,11 @@ const levels = [
     flavor:"R$27 − R$2 = R$25 (o quarto). Somar R$27 + R$2 não tem sentido. Nunca faltou nada."
   },
   {
-    type:"LÓGICA",
-    question:"Um homem mora no 20º andar.\nTodo dia desce de elevador.\nÀ noite, sobe só até o 7º andar\ne depois vai a pé.\n\nPor que faz isso?\n(responda em uma palavra)",
-    hint:"Pense em alcance físico. O que ele não consegue fazer?",
-    answers:["baixo","e baixo","anao","nao alcanca","pequeno","curto","nao chega"],
-    flavor:"Ele não alcança o botão do 20º andar."
+    type:"HISTÓRIA",
+    question:"Qual imperador francês\nfoi exilado na ilha de Santa Helena\napós ser derrotado\nna Batalha de Waterloo?\n\n(responda com o sobrenome)",
+    hint:"Nasceu na Córsega. Criou o Código Civil que leva seu nome.",
+    answers:["napoleao","napoleão","napoleon","bonaparte"],
+    flavor:"Napoleão Bonaparte — do trono ao exílio. Morreu em 1821."
   },
   {
     type:"ASTRONOMIA",
